@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(RegistrationPageForms\Norse-Bold.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.odin-pic {
+    width: 40%;
+    height: 100dvh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%,
+     rgba(0, 0, 0, 1)), url("backgr-min.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.odin-backdrop {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 20%;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.logo-container {
+    
+}
+
+.logo-text {
+    font-family: Norse-Bold;
+}
+
+.registration-side {
+    background-color: bisque;
+    width: 60%;
+    height: 100dvh;
+}
