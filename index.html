@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="font-applier">
         <div class="odin-pic">
             <div class="odin-backdrop">
                 <div class="logo-container">
@@ -20,13 +20,44 @@
         <div class="registration-side">
             <h1 class="custom-header">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
                 Sign up <i>now</i> to get started.
-                You <i>know</i> you want to.
+                <h1>You <i>know</i> you want to.</h1>
             </h1>
             <div class="form-container">
-                <div class="encouragement">Let's do this!</div>
-                <form action="/actionlmao">
-
-                </form>
+                <div class="form-wrapper">
+                    <form action="/actionlmao">
+                        <div class="encouragement">Let's do this!</div>
+                        <div class="form-temp">
+                            <div class="left-side">
+                                <label for="First-Name">
+                                    First Name
+                                </label>
+                                <input type="text" name="First-Name" id="First-Name">
+                                <label for="Mail">
+                                    Email
+                                </label>
+                                <input type="email" name="Mail" id="Mail">
+                                <label for="Password">
+                                    Password
+                                </label>
+                                <input type="password" name="Password" id="Password">
+                            </div>
+                            <div class="right-side">
+                                <label for="Last-Name">
+                                    Last Name
+                                </label>
+                                <input type="text" name="Last-Name" id="Last-Name">
+                                <label for="Phone-Number">
+                                    Phone Number
+                                </label>
+                                <input type="tel" name="Phone-Number" id="Phone-Number">
+                                <label for="Check-Password">
+                                    Confirm Your Password
+                                </label>
+                                <input type="password" name="Check-Password" id="Check-Password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <button class="create-account-button"></button>
             <div class="already-registered-text">Already have an account? <a href="">Log in</a></div>

@@ -1,12 +1,18 @@
 @font-face {
-    font-family: Norse-Bold;
-    src: url(RegistrationPageForms\Norse-Bold.otf);
+    font-family: "Norse-Bold";
+    src: url("Norse-Bold.otf");
+}
+
+h1 {
+    padding: 0% 5%;
+    font-size: 1.6rem;
 }
 
 body {
     padding: 0;
     margin: 0;
     display: flex;
+    min-width: 0;
     
 }
 
@@ -27,16 +33,83 @@ body {
     margin-top: 20%;
 }
 
+
+
 .logo-container {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
 
+.logo {
+    width: 20%;
+}
+
+
 .logo-text {
-    font-family: Norse-Bold;
+    font-family: "Norse-Bold";
+
+    font-size: 10vw;
+    color: white;
 }
 
 .registration-side {
-    background-color: bisque;
+    background-color: whitesmoke;
     width: 60%;
-    height: 100dvh;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 10%;
+}
+
+.form-wrapper {
+    width: 100%;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 0px 10px 25px black;
+    box-sizing: border-box;
+}
+
+.form-temp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.left-side {
+}
+
+.right-side {
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input {
+    padding: 0.5em;
+    border: solid 2px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    width: 15em;
+}
+
+.font-applier {
+    font-family: "verdana";
+}
+
+.already-registered-text {
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+.create-account-button {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
